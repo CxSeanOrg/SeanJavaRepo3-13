@@ -22,7 +22,7 @@ steps:
     projectName: 'SC_JVL_ADO'
     enableProxy: false
     enableSastScan: true
-    CheckmarxService: 'ADO'
+    CheckmarxService: 'CxSAST'
     fullTeamName: 'ADO'
     incScan: false
     enableDependencyScan: false
