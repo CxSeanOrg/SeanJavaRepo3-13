@@ -22,6 +22,7 @@ steps:
     projectName: 'SC_JVL_ADO'
     enableProxy: false
     enableSastScan: true
-    fullTeamName: 'http://ec2amaz-3jbtk7r/CxServer/ADO'
-    scanTimeout: '2'
+    CheckmarxService: 'ADO'
+    fullTeamName: 'ADO'
+    incScan: false
     enableDependencyScan: false
