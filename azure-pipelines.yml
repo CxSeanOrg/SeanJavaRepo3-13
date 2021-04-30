@@ -26,3 +26,10 @@ steps:
     fullTeamName: 'ADO'
     incScan: false
     enableDependencyScan: false
+- task: Application security testing@2021
+  inputs:
+    projectName: 'SC_JVL_ADO'
+    enableProxy: false
+    enableSastScan: true
+    CheckmarxService: 'CxSAST'
+    enableDependencyScan: false
